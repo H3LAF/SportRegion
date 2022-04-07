@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Image Source="/Resources/логотип.jpg" HorizontalAlignment="Left"></Image>
+        <TextBlock Text="SportRegion" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+        <Grid Background="#445c93" Panel.ZIndex="-2"></Grid>
+        <Grid Grid.Row="2" Background="#bae3e8"></Grid>
+        <Frame Grid.Row="1" Name="MainFrame"></Frame>
     </Grid>
 </Window>

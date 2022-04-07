@@ -16,14 +16,13 @@ using System.Windows.Shapes;
 namespace SportRegion
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для SportPitPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SportPitPage : Page
     {
-        public MainWindow()
+        public SportPitPage()
         {
             InitializeComponent();
-            MainFrame.Navigate(new SportPitPage());
         }
     }
 }
