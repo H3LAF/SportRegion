@@ -16,6 +16,7 @@
         <TextBlock Text="SportRegion" FontSize="30" HorizontalAlignment="Center"></TextBlock>
         <Grid Background="#445c93" Panel.ZIndex="-2"></Grid>
         <Grid Grid.Row="2" Background="#bae3e8"></Grid>
-        <Frame Grid.Row="1" Name="MainFrame"></Frame>
+        <Frame ContentRendered="MainFrame_ContentRendered" Grid.Row="1" Name="MainFrame"></Frame>
+        <Button Content="Back" Name="BtnBack" Width="175" Height="30" HorizontalAlignment="Right" Margin="5" Click="BtnBack_Click"></Button>
     </Grid>
 </Window>

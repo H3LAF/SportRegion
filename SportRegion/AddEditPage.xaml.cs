@@ -16,17 +16,13 @@ using System.Windows.Shapes;
 namespace SportRegion
 {
     /// <summary>
-    /// Логика взаимодействия для SportPitPage.xaml
+    /// Логика взаимодействия для AddEditPage.xaml
     /// </summary>
-    public partial class SportPitPage : Page
+    public partial class AddEditPage : Page
     {
-        public SportPitPage()
+        public AddEditPage()
         {
             InitializeComponent();
-        }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Manager.MainFrame.Navigate(new AddEditPage());
         }
     }
 }
